@@ -11,6 +11,7 @@ public class Weapon {
 
 
     public Weapon(String name, int damageInflicted, int hitPoints) {
+        super();
         this.name = name;
         this.damageInflicted = damageInflicted;
         this.hitPoints = hitPoints;
